@@ -1,0 +1,254 @@
+{
+  "@context": "https://schema.org ",
+  "@graph": [
+    {
+      "@type": "Product",
+      "name": "Полоса нержавеющая AISI 304 1.0х40х3000 BA",
+      "description": "Высококачественная полоса из нержавеющей стали AISI 304 с высокой коррозионной стойкостью.",
+      "image": "https://nerzhaveika.ru/images/strip-304.jpg ",
+      "sku": "456610791",
+      "brand": {
+        "@type": "Brand",
+        "name": "Нержавейка.РУ"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "340",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock ",
+        "priceValidUntil": "2025-12-31"
+      },
+      "category": "Сортовой прокат",
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Российские производители",
+        "sameAs": [
+          "https://yandex.ru/maps/org/nerzhaveyka_ru/123456789/ ",
+          "https://www.google.com/maps/place/NERZHAVEYKA.RU "
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "120"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "name": "Оценка качества",
+          "reviewBody": "Отличное качество металла, соответствует заявленным характеристикам.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "name": "Доставка",
+          "reviewBody": "Доставили вовремя, без задержек.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4"
+          }
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Марка стали",
+          "value": "AISI 304"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Толщина",
+          "value": "1.0 мм"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Размер",
+          "value": "1.0х40х3000 мм"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Вес",
+          "value": "3.14 кг"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Способы оплаты",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Оплата юридическим лицом",
+              "description": "По счёту, бизнес-картой, online. Для постоянных клиентов возможна отсрочка платежа."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Оплата физическим лицом",
+              "description": "Картой, наличными в кассе склада, online."
+            }
+          }
+        ]
+      },
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "name": "Правила возврата",
+        "description": "Возврат товара возможен в течение 14 дней с момента покупки при наличии документа, подтверждающего право собственности.",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow "
+      },
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "radius": 100000,
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Москва",
+          "addressRegion": "Московская область",
+          "postalCode": "143000",
+          "streetAddress": "Западная ул., 13"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Продукцию каких заводов вы продаете?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Мы являемся дилерами и официальными поставщиками крупнейших российских производителей цветного металлопроката."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Можно ли заказать доставку?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Да, доставка по РФ возможна за 2 дня."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "name": "Нержавейка.РУ",
+      "alternateName": "Интернет-магазин нержавеющего проката",
+      "url": "https://nerzhaveika.ru ",
+      "logo": "https://nerzhaveika.ru/images/logo.png ",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+7(495) 374-55-88",
+          "contactType": "customer service",
+          "areaServed": "Россия",
+          "availableLanguage": "Русский"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+7(812) 407-11-96",
+          "contactType": "customer service",
+          "areaServed": "Санкт-Петербург",
+          "availableLanguage": "Русский"
+        }
+      ],
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "Западная ул., 13",
+          "addressLocality": "Одинцово",
+          "addressRegion": "Московская область",
+          "postalCode": "143000",
+          "addressCountry": "Россия"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "Старо-Паново, ул. Рабочая, д 16",
+          "addressLocality": "Санкт-Петербург",
+          "postalCode": "198205",
+          "addressCountry": "Россия"
+        }
+      ],
+      "areaServed": [
+        {
+          "@type": "GeoCircle",
+          "radius": 100000,
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Москва",
+            "addressRegion": "Московская область"
+          }
+        },
+        {
+          "@type": "GeoCircle",
+          "radius": 150000,
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Санкт-Петербург",
+            "addressRegion": "Ленинградская область"
+          }
+        }
+      ],
+      "sameAs": [
+        "https://yandex.ru/maps/org/nerzhaveyka_ru/123456789/ ",
+        "https://www.google.com/maps/place/NERZHAVEYKA.RU "
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Рекомендуемые товары",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://nerzhaveika.ru/products/plosa-nerzhaveyushchaya-aisi-316l "
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://nerzhaveika.ru/products/list-nerzhaveyushchaya-aisi-304 "
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://nerzhaveika.ru "
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Каталог",
+          "item": "https://nerzhaveika.ru/products "
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Полоса нержавеющая AISI 304",
+          "item": "https://nerzhaveika.ru/products/plosa-nerzhaveyushchaya-aisi-304 "
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "url": "https://nerzhaveika.ru ",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://nerzhaveika.ru/search?q= {search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
